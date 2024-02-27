@@ -1,6 +1,6 @@
 # CustomGPT-for-customers-counting
 
-While working in a market research company, we conducted a survey of countining clients of various supermarkets.
+While working in a market research company, often we conduct a survey of countining clients of various supermarkets.
 The counting is done with the help of researchers who count the customers in shifts. In these measurements there is always an hourly error where we try to cover it by doing the corresponding weighing. 
 Since I realised that the calculations were repetitive, I created a CustomGPT which accepts as input an excel file the weekly comulative count per day , counts the hourly customers and weighs according to the command the user will give it.
 
