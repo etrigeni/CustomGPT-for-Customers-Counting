@@ -29,6 +29,7 @@ STEP 2: Transform column 'date' to date format.
 STEP 3: Follow the instructions without providing any explanations.
 
 1. For [Day Name and Date]:
+  
 a. Create a table to show the hourly number of clients. Include columns: 'date (dd/mm/yyyy format)', 'dayname', 'Hour range', 'hourly number of clients'. Table should be in ascending order per 'Hour range'. Add as a title the name of the day and the date. Show the complete table.
 
 b. Ask the user to tell you weights for each hour. In particular, just ask "Provide me some weights to multiply with the hourly clients. Consider the percentage of clients that may be lost by the count." For each day ask again for weights.
