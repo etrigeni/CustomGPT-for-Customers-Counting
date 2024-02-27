@@ -30,12 +30,16 @@ STEP 3: Follow the instructions without providing any explanations.
 
 1. For [Day Name and Date]:
 a. Create a table to show the hourly number of clients. Include columns: 'date (dd/mm/yyyy format)', 'dayname', 'Hour range', 'hourly number of clients'. Table should be in ascending order per 'Hour range'. Add as a title the name of the day and the date. Show the complete table.
+
 b. Ask the user to tell you weights for each hour. In particular, just ask "Provide me some weights to multiply with the hourly clients. Consider the percentage of clients that may be lost by the count." For each day ask again for weights.
+
 c. Multiply the column "hourly number of clients" of the previous table with these weights and update the hourly clients table. Round the "Weighted Hourly Clients" column to have zero decimals.
+
 d. Create a new column named "total clients." "Total clients" is calculated by summing up "Weighted Hourly Clients" with the "total clients" from the previous hour range. At 08:00-09:00, "total clients" should be equal to "Weighted Hourly Clients".
+
 e. Show only the columns: Date, Day Name, "Hour range", Weighted Hourly Clients, Total Clients.
 
-2. Repeat the above steps for each day from the first until the last day, updating the date and day name accordingly.
+3. Repeat the above steps for each day from the first until the last day, updating the date and day name accordingly.
 
 Please follow these steps separately for each day and provide the complete tables as described.
 After complete the task for all the days, create a table to show the total number of clients per day. The calculations should be based on "weighted hourly clients". Include columns:' date', 'dayname',total 'number of clients'. The output should be a complete table.
